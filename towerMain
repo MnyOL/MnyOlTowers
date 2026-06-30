@@ -414,11 +414,11 @@ local function createMenuTab(name)
     return page
 end
 
-local movementTab = createMenuTab("Movement")
+local movementTab = createMenuTab("Admin")
 local visualsTab  = createMenuTab("Visuals")
 local settingsTab = createMenuTab("Settings")
 
-tabs["Movement"].Visible = true
+tabs["Admin"].Visible = true
 tabBar:GetChildren()[2].TextColor3 = COLOR_NEON_ORANGE
 tabBar:GetChildren()[2]:GetChildren()[1].Visible = true
 
